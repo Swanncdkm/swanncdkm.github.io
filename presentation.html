@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez la SPAA : nos missions, notre histoire, notre fonctionnement et les valeurs qui animent notre refuge pour animaux.">
+    <title>SPAA — L'association</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a href="#contenu" class="lien-evitement">Aller au contenu principal</a>
+
+    <header class="entete">
+        <div class="conteneur entete__contenu">
+            <a href="index.html" class="logo" aria-label="SPAA, retour à l'accueil">
+                <span class="logo__icone" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 14c-2.8 0-5 1.9-5 4.2 0 1.5 1.2 2.3 2.7 2.3 1 0 1.7-.4 2.3-.4s1.3.4 2.3.4c1.5 0 2.7-.8 2.7-2.3 0-2.3-2.2-4.2-5-4.2zM6.5 8.5C5.4 8.5 4.5 9.7 4.5 11.2s.9 2.7 2 2.7 2-1.2 2-2.7-.9-2.7-2-2.7zm11 0c-1.1 0-2 1.2-2 2.7s.9 2.7 2 2.7 2-1.2 2-2.7-.9-2.7-2-2.7zM9.5 4C8.4 4 7.5 5.2 7.5 6.7s.9 2.7 2 2.7 2-1.2 2-2.7S10.6 4 9.5 4zm5 0c-1.1 0-2 1.2-2 2.7s.9 2.7 2 2.7 2-1.2 2-2.7-.9-2.7-2-2.7z"/></svg>
+                </span>
+                <span class="logo__texte">SPAA <small>Refuge pour animaux</small></span>
+            </a>
+            <button class="burger" id="burger" aria-label="Ouvrir ou fermer le menu" aria-expanded="false" aria-controls="menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="navigation" id="menu" aria-label="Navigation principale">
+                <ul class="menu">
+                    <li><a href="index.html">Accueil</a></li>
+
+                    <li><a href="presentation.html" aria-current="page">L'association</a></li>
+                    <li><a href="animaux.html">Les animaux</a></li>
+                    <li><a href="agenda.html">Agenda</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li><a href="blog-faq.html">Blog / FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="menu__cta"><a href="animaux.html" class="bouton bouton--petit">Adopter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenu">
+
+        <section class="heros">
+            <div class="conteneur">
+                <span class="section__sur-titre">Qui sommes-nous ?</span>
+                <h1 class="heros__titre">L'association SPAA</h1>
+                <p class="heros__texte">
+                    Un refuge à taille humaine, porté par des bénévoles passionnés,
+                    au service du bien-être animal depuis 2008.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="conteneur heros__grille">
+                <div>
+                    <span class="section__sur-titre">Notre histoire</span>
+                    <h2>Un engagement né d'une conviction</h2>
+                    <p>
+                        La SPAA (Société de Protection Animale de l'Agglomération) a été fondée
+                        en 2008 par un petit groupe de bénévoles décidés à venir en aide aux
+                        animaux abandonnés de la région. D'un simple local, le refuge est devenu
+                        un véritable lieu de vie capable d'accueillir une soixantaine d'animaux.
+                    </p>
+                    <p>
+                        Fonctionnant sur un modèle proche de celui de la SPA, l'association ne
+                        vit que grâce à l'engagement de ses bénévoles, aux dons et au soutien de
+                        ses partenaires locaux.
+                    </p>
+
+                </div>
+                <div>
+                    <img src="images/refuge.jpg" alt="Un chien du refuge allongé dans l'herbe" class="media media--heros">
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--blanc">
+            <div class="conteneur">
+                <div class="section__entete">
+                    <span class="section__sur-titre">Nos missions</span>
+                    <h2>Ce que nous faisons au quotidien</h2>
+                </div>
+                <div class="grille-cartes">
+                    <article class="carte">
+                        <div class="carte__icone" aria-hidden="true">🏠</div>
+                        <h3>Recueillir</h3>
+                        <p>Accueillir les animaux abandonnés, perdus ou saisis, et leur offrir un refuge sécurisé.</p>
+                    </article>
+                    <article class="carte">
+                        <div class="carte__icone" aria-hidden="true">💉</div>
+                        <h3>Soigner</h3>
+                        <p>Assurer les soins vétérinaires, la vaccination, l'identification et la stérilisation.</p>
+                    </article>
+                    <article class="carte">
+                        <div class="carte__icone" aria-hidden="true">🤝</div>
+                        <h3>Faire adopter</h3>
+                        <p>Trouver une famille adaptée à chaque animal et accompagner les adoptants.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--blanc">
+            <div class="conteneur section__entete">
+                <h2>Envie de nous rejoindre ?</h2>
+                <p class="section__texte">Bénévolat, dons, adoption : il existe mille façons d'aider le refuge.</p>
+                <div class="heros__actions" style="justify-content:center; margin-top:20px;">
+                    <a href="contact.html" class="bouton">Devenir bénévole</a>
+                    <a href="animaux.html" class="bouton bouton--contour">Voir les animaux</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="pied">
+        <div class="conteneur pied__grille">
+            <div class="pied__bloc">
+                <h3>SPAA</h3>
+                <p>Association de refuge pour animaux. Nous accueillons, soignons et
+                   proposons à l'adoption des animaux en quête d'un nouveau foyer.</p>
+                <ul class="reseaux" aria-label="Réseaux sociaux de la SPAA">
+                    <li><a href="#" aria-label="Facebook de la SPAA"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V8.9c0-.9.3-1.5 1.6-1.5h1.7V4.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.3v2.1H7.4V14h2.8v8h3.3z"/></svg></a></li>
+                    <li><a href="#" aria-label="Instagram de la SPAA"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4 1.3-.1 1.7-.1 4.9-.1zM12 6.8A5.2 5.2 0 1 0 12 17.2 5.2 5.2 0 0 0 12 6.8zm0 8.6A3.4 3.4 0 1 1 12 8.6a3.4 3.4 0 0 1 0 6.8zm5.4-8.8a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg></a></li>
+                    <li><a href="#" aria-label="YouTube de la SPAA"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23 12s0-3.2-.4-4.7c-.2-.8-.9-1.5-1.7-1.7C19.4 5.2 12 5.2 12 5.2s-7.4 0-8.9.4c-.8.2-1.5.9-1.7 1.7C1 8.8 1 12 1 12s0 3.2.4 4.7c.2.8.9 1.5 1.7 1.7 1.5.4 8.9.4 8.9.4s7.4 0 8.9-.4c.8-.2 1.5-.9 1.7-1.7.4-1.5.4-4.7.4-4.7zM9.8 15.3V8.7l5.7 3.3-5.7 3.3z"/></svg></a></li>
+                </ul>
+            </div>
+            <div class="pied__bloc">
+                <h3>Le site</h3>
+                <ul class="pied__liens">
+                    <li><a href="presentation.html">L'association</a></li>
+                    <li><a href="animaux.html">Les animaux</a></li>
+                    <li><a href="agenda.html">Agenda</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li><a href="blog-faq.html">Blog / FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="pied__bloc">
+                <h3>Nous trouver</h3>
+                <address>
+                    12 chemin des Tilleuls<br>
+                    75000 Ville-Exemple<br>
+                    Tél. : <a href="tel:+33123456789">01 23 45 67 89</a><br>
+                    E-mail : <a href="mailto:contact@spaa.fr">contact@spaa.fr</a>
+                </address>
+            </div>
+        </div>
+        <div class="pied__bas">
+            <div class="conteneur">
+                <p>© <span id="annee">2026</span> SPAA — Tous droits réservés ·
+                   <a href="mentions-legales.html">Mentions légales</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
