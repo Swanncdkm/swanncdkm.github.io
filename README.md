@@ -3,17 +3,16 @@
 Site vitrine de l'association **SPAA** (refuge pour animaux), réalisé en
 **HTML5, CSS3 et JavaScript** (sans framework) dans le cadre d'un projet **BTS SIO**.
 
-## 🌐 Site en ligne
-> À compléter une fois GitHub Pages activé :
-> `https://<mon-compte-github>.github.io/<nom-du-depot>/`
+## Site en ligne
+**https://swanncdkm.github.io/**
 
-## 📄 Pages du site
-Accueil · L'association · Les animaux du refuge · Agenda · Actualités · Blog / FAQ · Contact · Mentions légales
+## Pages du site
+Accueil · L'association · Les animaux du refuge · Agenda · Actualités · Blog / FAQ · Contact · Adopter · Mentions légales
 
-## 🚀 Lancer le site en local
+## Lancer le site en local
 Double-cliquer sur le fichier **`index.html`** : le site s'ouvre dans le navigateur.
 
-## 🗂️ Structure du projet
+## Structure du projet
 ```
 .
 ├── index.html, presentation.html, …   → les pages du site
@@ -22,8 +21,8 @@ Double-cliquer sur le fichier **`index.html`** : le site s'ouvre dans le navigat
 └── images/                            → les photos
 ```
 
-## 🎨 Technique
+## Technique
 HTML5 sémantique · CSS (Flexbox, responsive) · JavaScript « vanilla » (menu mobile, année automatique, formulaire) · aucun framework.
 
 ---
-Réalisé par Swann — Projet BTS SIO.
+Réalisé par Swann - Projet BTS SIO.
