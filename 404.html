@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page introuvable - Site vitrine de l'association SPAA, refuge pour animaux.">
+    <title>SPAA - Page introuvable</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a href="#contenu" class="lien-evitement">Aller au contenu principal</a>
+
+    <header class="entete">
+        <div class="conteneur entete__contenu">
+            <a href="index.html" class="logo" aria-label="SPAA, retour à l'accueil">
+                <span class="logo__icone" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/><ellipse cx="12" cy="12.6" rx="2.1" ry="1.7" fill="#E07A5F"/><circle cx="9.2" cy="10.8" r=".95" fill="#E07A5F"/><circle cx="10.9" cy="9.5" r=".95" fill="#E07A5F"/><circle cx="13.1" cy="9.5" r=".95" fill="#E07A5F"/><circle cx="14.8" cy="10.8" r=".95" fill="#E07A5F"/></svg>
+                </span>
+                <span class="logo__texte">SPAA <small>Refuge pour animaux</small></span>
+            </a>
+            <button class="burger" id="burger" aria-label="Ouvrir ou fermer le menu" aria-expanded="false" aria-controls="menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="navigation" id="menu" aria-label="Navigation principale">
+                <ul class="menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="presentation.html">L'association</a></li>
+                    <li><a href="animaux.html">Les animaux</a></li>
+                    <li><a href="agenda.html">Agenda</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li><a href="blog-faq.html">Blog / FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="menu__cta"><a href="adopter.html" class="bouton bouton--petit">Adopter</a></li>
+                    <li class="menu__cta"><a href="faire-un-don.html" class="bouton bouton--petit bouton--secondaire">Faire un don</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenu">
+        <section class="heros">
+            <div class="conteneur section__entete">
+                <span class="section__sur-titre">Erreur 404</span>
+                <h1 class="heros__titre" style="font-size:3.5rem;">Oups ! Page introuvable <span aria-hidden="true">🐾</span></h1>
+                <p class="section__texte">
+                    La page que vous cherchez s'est échappée du refuge, ou n'a jamais existé.
+                    Pas de panique : nos animaux, eux, sont toujours là et vous attendent.
+                </p>
+                <div class="heros__actions" style="justify-content:center; margin-top:24px;">
+                    <a href="index.html" class="bouton">Retour à l'accueil</a>
+                    <a href="animaux.html" class="bouton bouton--contour">Voir les animaux</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pied">
+        <div class="conteneur pied__grille">
+            <div class="pied__bloc">
+                <h3>SPAA</h3>
+                <p>Association de refuge pour animaux. Nous accueillons, soignons et
+                   proposons à l'adoption des animaux en quête d'un nouveau foyer.</p>
+            </div>
+            <div class="pied__bloc">
+                <h3>Le site</h3>
+                <ul class="pied__liens">
+                    <li><a href="presentation.html">L'association</a></li>
+                    <li><a href="animaux.html">Les animaux</a></li>
+                    <li><a href="agenda.html">Agenda</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li><a href="blog-faq.html">Blog / FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="pied__bloc">
+                <h3>Nous trouver</h3>
+                <address>
+                    4 Rue des Mouettes<br>
+                    14000 Caen<br>
+                    Tél. : <a href="tel:+33123456789">01 23 45 67 89</a><br>
+                    E-mail : <a href="mailto:contact@spaa.fr">contact@spaa.fr</a>
+                </address>
+            </div>
+        </div>
+        <div class="pied__bas">
+            <div class="conteneur">
+                <p>© <span id="annee">2026</span> SPAA - Tous droits réservés ·
+                   <a href="mentions-legales.html">Mentions légales</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
