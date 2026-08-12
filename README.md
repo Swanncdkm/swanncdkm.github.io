@@ -7,7 +7,7 @@ Site vitrine de l'association **SPAA** (refuge pour animaux), réalisé en
 **https://swanncdkm.github.io/**
 
 ## Pages du site
-Accueil · L'association · Les animaux du refuge · Agenda · Actualités · Blog / FAQ · Contact · Adopter · Mentions légales
+Accueil · L'association · Les animaux du refuge · Agenda · Actualités · Blog / FAQ · Contact · Adopter · Faire un don · Mentions légales
 
 ## Lancer le site en local
 Double-cliquer sur le fichier **`index.html`** : le site s'ouvre dans le navigateur.
